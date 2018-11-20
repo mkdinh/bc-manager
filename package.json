@@ -1,0 +1,17 @@
+{
+  "name": "Bootcamp-Manager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "electron": "^3.0.9",
+    "electron-builder": "^20.36.2"
+  },
+  "scripts": {
+    "start:client": "node scripts/start-client.js",
+    "init:electron": "node scripts/start-electron.js",
+    "start:electron": "electron .",
+    "start": "concurrently \"yarn init:electron\" \"yarn start:client\""
+  }
+}

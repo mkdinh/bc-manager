@@ -1,0 +1,19 @@
+{
+    "theme":{
+        "colors": {
+            "primary": {
+                "hex": "1E4363"
+            },
+            "secondary": {
+                "hex": "FFB00D"
+            },
+            "tertiary": {
+                "hex": "FF9826"
+            },
+            "link": "",
+            "text": "",
+            "background": {
+                "hex": "2B3A42"
+        }
+    }
+}
